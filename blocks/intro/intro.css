@@ -1,0 +1,6 @@
+@import url(./__title/intro__title.css);
+@import url(./__main-text/intro__main-text.css);
+
+.intro {
+  width: 984px;
+}

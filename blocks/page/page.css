@@ -1,0 +1,12 @@
+.page {
+  min-width: 1280px;
+  background-color: #2a2c2f;
+  color: #fff;
+  font-family: 'Inter';
+  
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
