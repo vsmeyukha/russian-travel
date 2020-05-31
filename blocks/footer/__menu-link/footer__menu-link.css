@@ -1,0 +1,49 @@
+.footer__menu-link {
+  font-size: 16px;
+  line-height: 1.125;
+  font-family: 'Inter';
+  text-decoration: none;
+  transition: .15s;
+  margin-right: 18px;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+.footer__menu-link:link {
+  color: white;
+}
+
+.footer__menu-link:visited {
+  color: white;
+}
+
+.footer__menu-link:hover {
+  opacity: .8;
+}
+
+.footer__menu-link:active {
+  text-decoration: underline;
+}
+
+.footer__menu-link:last-of-type {
+  margin: 0;
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+
+}
+
+/* ! Малые смартфоны, менее 425 пикселей */
+@media screen and (max-width: 425px) {
+  .footer__menu-link {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
+}

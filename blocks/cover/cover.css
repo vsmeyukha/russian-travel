@@ -1,0 +1,29 @@
+@import url(./__image/cover__image.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__link/cover__link.css);
+
+.cover {
+  width: 1184px;
+  display: grid;
+  grid-template-columns: 1fr fit-content(560px) 1fr;
+  grid-template-rows: 1fr fit-content(152px) fit-content(66px) 1fr;
+  grid-row-gap: 32px;
+  margin-top: 92px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+/* ! Малые смартфоны, менее 425 пикселей */
+@media screen and (max-width: 425px) {
+  .cover {
+    grid-template-columns: 1fr fit-content(288px) 1fr;
+  grid-template-rows: 1fr fit-content(70px) fit-content(48px) 1fr;
+  }
+}

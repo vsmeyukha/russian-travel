@@ -1,0 +1,37 @@
+@import url(./__lang-select/header__lang-select.css);
+@import url(./__link/header__link.css);
+@import url(./__link/_lang/header__link_lang_ru.css);
+
+.header {
+  width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 56px;
+}
+
+/* ! Малые ноутбуки, от 1024 до 1280 пикселей */
+@media screen and (max-width: 1279px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
+/* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
+@media screen and (max-width: 1023px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+}
+
+/* ! Малые смартфоны, менее 425 пикселей */
+@media screen and (max-width: 425px) {
+  .header {
+    width: calc(100% - 32px);
+  }
+}

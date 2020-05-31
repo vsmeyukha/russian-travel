@@ -1,12 +1,12 @@
-.logo {
-  width: 176px;
-  height: 52px;
+.footer__menu {
+  margin: 0;
+  padding: 0;
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */
 @media screen and (max-width: 425px) {
-  .logo {
-    width: 142px;
-    height: 42px;
+  .footer__menu {
+    display: flex;
+    flex-direction: column;
   }
 }

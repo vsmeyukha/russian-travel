@@ -1,40 +1,40 @@
-@import url(./__author/footer__author.css);
-@import url(./__menu/footer__menu.css);
-@import url(./__menu-link/footer__menu-link.css);
-
-.footer {
-  width: 1184px;
-  display: flex;
-  justify-content: space-between;
+.places__title {
+  font-size: 72px;
+  line-height: 1.06;
+  font-family: 'Inter';
+  font-weight: 900;
   margin: 0;
-  padding-bottom: 24px;
-}
+  padding: 0;
+  grid-area: title;
+  max-height: 152px;
 
-/* ! Малые ноутбуки, от 1024 до 1280 пикселей */
-@media screen and (max-width: 1279px) {
-  .footer {
-    width: calc(100% - 96px);
-  }
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 /* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
 @media screen and (max-width: 1023px) {
-  .footer {
-    width: calc(100% - 48px);
+  .places__title {
+    font-size: 42px;
+    line-height: 1.1;
   }
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
 @media screen and (max-width: 767px) {
-
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */
 @media screen and (max-width: 425px) {
-  .footer {
+  .places__title {
+    font-size: 32px;
+    line-height: 1.09;
     width: calc(100% - 32px);
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    text-align: left;
+    margin-left: 16px;
   }
 }

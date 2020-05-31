@@ -1,0 +1,46 @@
+@import url(./__item/gallery__item.css);
+
+.gallery {
+  max-width: 1184px;
+  
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+/* ! Малые ноутбуки, от 1024 до 1280 пикселей */
+@media screen and (max-width: 1279px) {
+  .gallery {
+    width: calc(100% - 96px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 14px;
+  }
+}
+
+/* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
+@media screen and (max-width: 1023px) {
+  .gallery {
+    width: calc(100% - 48px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+  
+}
+
+/* ! Малые смартфоны, менее 425 пикселей */
+@media screen and (max-width: 425px) {
+  .gallery {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

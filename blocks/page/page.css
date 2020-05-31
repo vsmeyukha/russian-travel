@@ -1,12 +1,41 @@
+@import url(./__content/page__content.css);
+
 .page {
   min-width: 1280px;
   background-color: #2a2c2f;
   color: #fff;
-  font-family: 'Inter';
-  
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* ! Малые ноутбуки, от 1024 до 1280 пикселей */
+@media screen and (max-width: 1279px) {
+  .page {
+    min-width: 1024px;
+    max-width: 1279px;
+  }
+}
+
+/* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
+@media screen and (max-width: 1023px) {
+  .page {
+    min-width: 768px;
+    max-width: 1023px;
+  }
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+  .page {
+    min-width: 425px;
+    max-width: 767px;
+  }
+}
+
+/* ! Малые смартфоны, менее 425 пикселей */
+@media screen and (max-width: 425px) {
+  .page {
+    max-width: 425px;
+  }
 }

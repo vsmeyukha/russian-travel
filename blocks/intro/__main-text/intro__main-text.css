@@ -1,5 +1,31 @@
 .intro__main-text {
-  max-width: 690px;
+  width: 690px;
+
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
+  font-family: 'Inter';
+  margin: 0;
+  padding: 0;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+/* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
+@media screen and (max-width: 1023px) {
+  .intro__main-text {
+    width: calc(100% - 48px);
+  }
+}
+
+/* ! Малые смартфоны, менее 425 пикселей */
+@media screen and (max-width: 425px) {
+  .intro__main-text {
+    width: calc(100% - 32px);
+    
+  }
 }

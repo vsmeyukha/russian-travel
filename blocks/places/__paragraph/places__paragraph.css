@@ -1,8 +1,12 @@
-.intro__title {
-  font-size: 54px;
-  line-height: 1.07;
-  font-weight: 900;
+.places__paragraph {
+  font-size: 18px;
+  line-height: 1.67;
   font-family: 'Inter';
+
+
+  grid-area: paragraph;
+  margin-top: 0;
+  margin-bottom: 24px;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -10,23 +14,31 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+}
 
+.places__paragraph:last-child {
   margin: 0;
-  padding-bottom: 40px;
+  padding: 0;
 }
 
 /* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
 @media screen and (max-width: 1023px) {
-  .intro__title {
-    width: calc(100% - 48px);
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 1.62;
   }
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */
 @media screen and (max-width: 425px) {
-  .intro__title {
+  .places__paragraph {
     width: calc(100% - 32px);
-    font-size: 32px;
-    line-height: 1.09;
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }
+  .places__paragraph:last-child {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

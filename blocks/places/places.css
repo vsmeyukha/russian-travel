@@ -1,0 +1,36 @@
+@import url(./__image/places__image.css);
+@import url(./__item/places__item.css);
+@import url(./__link/places__link.css);
+@import url(./__paragraph/places__paragraph.css);
+@import url(./__paragraph-container/places__paragraph-container.css);
+@import url(./__title/places__title.css);
+
+.places {
+  width: 984px;
+  margin-top: 12px;
+}
+
+/* ! Малые ноутбуки, от 1024 до 1280 пикселей */
+@media screen and (max-width: 1279px) {
+  .places {
+    width: calc(100% - 96px);
+  }
+}
+
+/* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
+@media screen and (max-width: 1023px) {
+  .places {
+    width: calc(100% - 48px);
+  }
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+}
+
+/* ! Малые смартфоны, менее 425 пикселей */
+@media screen and (max-width: 425px) {
+  .places {
+    width: 100%;
+  }
+}

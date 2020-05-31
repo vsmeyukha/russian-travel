@@ -1,0 +1,4 @@
+.places__paragraph-container {
+  grid-area: paragraph-container;
+  align-self: start;
+}
