@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
 }
 
 /* ! Малые ноутбуки, от 1024 до 1280 пикселей */
@@ -25,11 +26,48 @@
   }
 }
 
-/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
 @media screen and (max-width: 767px) {
   .page {
-    min-width: 425px;
+    min-width: 700px;
     max-width: 767px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .page {
+    min-width: 650px;
+    max-width: 699px;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .page {
+    min-width: 600px;
+    max-width: 649px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .page {
+    min-width: 550px;
+    max-width: 599px;
+  }
+}
+@media screen and (max-width: 549px) {
+  .page {
+    min-width: 500px;
+    max-width: 549px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .page {
+    min-width: 450px;
+    max-width: 499px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .page {
+    min-width: 400px;
+    max-width: 449px;
   }
 }
 
@@ -37,5 +75,25 @@
 @media screen and (max-width: 425px) {
   .page {
     max-width: 425px;
+    
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .page {
+    min-width: 350px;
+    max-width: 399px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .page {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
   }
 }

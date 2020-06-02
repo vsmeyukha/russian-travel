@@ -1,6 +1,7 @@
 @import url(./__author/footer__author.css);
 @import url(./__menu/footer__menu.css);
 @import url(./__menu-link/footer__menu-link.css);
+@import url(./__nav/footer__nav.css);
 
 .footer {
   width: 1184px;
@@ -8,6 +9,8 @@
   justify-content: space-between;
   margin: 0;
   padding-bottom: 24px;
+
+  align-self: center;
 }
 
 /* ! Малые ноутбуки, от 1024 до 1280 пикселей */
@@ -25,8 +28,12 @@
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 480px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */
@@ -35,6 +42,6 @@
     width: calc(100% - 32px);
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    align-items: flex-start;
   }
 }

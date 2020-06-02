@@ -25,7 +25,11 @@
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 650px) {
+  .places__title {
+    align-self: flex-start;
+    margin-bottom: 32px;
+  }
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */

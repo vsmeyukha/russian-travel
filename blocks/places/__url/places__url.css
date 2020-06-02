@@ -1,0 +1,14 @@
+.places__url {
+  font-family: 'Inter';
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: .2em;
+  color: #aaaaaa;
+  margin: 0 0 12px 0;
+}
+
+@media screen and (max-width: 550px) {
+  .places__url {
+    display: none;
+  }
+}

@@ -1,27 +1,29 @@
 .gallery__item {
   width: 284px;
   height: 213px;
+
+  object-fit: cover;
 }
 
 /* ! Малые ноутбуки, от 1024 до 1280 пикселей */
 @media screen and (max-width: 1279px) {
   .gallery__item {
-    width: 300px;
-    height: 225px;
+    width: 100%;
   }
 }
 
 /* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
 @media screen and (max-width: 1023px) {
   .gallery__item {
-    width: 352px;
-    height: 264px;
+    width: 100%;
   }
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
 @media screen and (max-width: 767px) {
-  
+  .gallery__item {
+    width: 100%;
+  }
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */
@@ -29,7 +31,6 @@
   .gallery__item {
     width: 100%;
     margin-bottom: 12px;
-    object-fit: cover;
   }
 
   .gallery__item:last-of-type {

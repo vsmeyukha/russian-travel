@@ -2,6 +2,7 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
+@import url(./__figure/lead__figure.css);
 
 
 .lead {
@@ -25,10 +26,6 @@
   .lead {
     width: 100%;
   }
-}
-
-/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
-@media screen and (max-width: 767px) {
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */

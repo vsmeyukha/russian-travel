@@ -3,10 +3,10 @@
   line-height: 1.22;
   font-family: 'Inter';
   text-decoration: underline;
-  grid-area: link;
-  align-self: end;
   transition: .2s;
   color: white;
+  margin: 0;
+  padding: 0;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,8 +24,7 @@
   color: white;
 }
 
-/* ! Малые смартфоны, менее 425 пикселей */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .places__link {
     display: none;
   }

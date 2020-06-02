@@ -6,7 +6,6 @@
   transition: .15s;
   margin-right: 18px;
 
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -35,9 +34,34 @@
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 700px) {
+  .footer__menu-link {
+    font-size: 14px;
+    margin-right: 14px;
+  }
 }
+
+@media screen and (max-width: 620px) {
+  .footer__menu-link {
+    font-size: 12px;
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer__menu-link {
+    font-size: 10px;
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__menu-link {
+    font-size: 14px;
+    margin-right: 12px;
+  }
+}
+
 
 /* ! Малые смартфоны, менее 425 пикселей */
 @media screen and (max-width: 425px) {

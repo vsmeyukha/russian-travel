@@ -1,0 +1,15 @@
+.lead__figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+  .lead__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

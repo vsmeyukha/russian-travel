@@ -5,7 +5,7 @@
   grid-column-gap: 40px;
   grid-row-gap: 48px;
   grid-template-areas: 
-  "title link"
+  "title link-container"
   "image paragraph-container";
 
   margin-top: 80px;
@@ -26,7 +26,70 @@
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 650px) {
+  .places__item {
+    width: 600px;
+    margin-bottom: 48px;
+    margin-top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .places__item:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places__item {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .places__item {
+    width: 500px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .places__item {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .places__item {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__item {
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places__item {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .places__item {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .places__item {
+    width: 270px;
+  }
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */

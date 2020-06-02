@@ -14,8 +14,7 @@
 @media screen and (max-width: 1279px) {
   .gallery {
     width: calc(100% - 96px);
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    
     grid-gap: 14px;
   }
 }
@@ -24,15 +23,18 @@
 @media screen and (max-width: 1023px) {
   .gallery {
     width: calc(100% - 48px);
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
 @media screen and (max-width: 767px) {
-  
-}
+  .gallery {
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
 
 /* ! Малые смартфоны, менее 425 пикселей */
 @media screen and (max-width: 425px) {

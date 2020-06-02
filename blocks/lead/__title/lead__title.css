@@ -2,7 +2,7 @@
   font-size: 96px;
   line-height: 1.04;
   font-family: 'Inter';
-  text-rendering: optimizeLegibility;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -15,6 +15,64 @@
   text-align: center;
   width: 720px;
   min-height: 200px;
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+  .lead__title {
+    font-size: 80px;
+    max-width: 650px;
+    min-height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .lead__title {
+    font-size: 75px;
+    max-width: 620px;
+    min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .lead__title {
+    font-size: 70px;
+    max-width: 580px;
+    min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__title {
+    font-size: 65px;
+    max-width: 550px;
+    min-height: 135px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__title {
+    font-size: 65px;
+    max-width: 550px;
+    min-height: 135px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .lead__title {
+    font-size: 60px;
+    max-width: 480px;
+    min-height: 130px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lead__title {
+    font-size: 55px;
+    max-width: 420px;
+    min-height: 120px;
+  }
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */

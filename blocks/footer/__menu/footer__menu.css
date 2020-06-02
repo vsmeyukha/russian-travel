@@ -1,6 +1,10 @@
 .footer__menu {
   margin: 0;
   padding: 0;
+
+  list-style-type: none;
+
+  display: flex;
 }
 
 /* ! Малые смартфоны, менее 425 пикселей */

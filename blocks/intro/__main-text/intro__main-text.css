@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
 
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -19,6 +18,14 @@
 @media screen and (max-width: 1023px) {
   .intro__main-text {
     width: calc(100% - 48px);
+  }
+}
+
+/* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
+@media screen and (max-width: 767px) {
+  .intro__main-text {
+    display: flex;
+    align-self: center;
   }
 }
 

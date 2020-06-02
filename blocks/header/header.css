@@ -9,6 +9,8 @@
   align-items: center;
   margin-top: 28px;
   margin-bottom: 56px;
+
+  align-self: center;
 }
 
 /* ! Малые ноутбуки, от 1024 до 1280 пикселей */
