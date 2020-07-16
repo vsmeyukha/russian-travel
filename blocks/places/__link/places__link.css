@@ -1,7 +1,7 @@
 .places__link {
   font-size: 18px;
   line-height: 1.22;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   text-decoration: underline;
   transition: .2s;
   color: white;
