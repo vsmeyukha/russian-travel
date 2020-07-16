@@ -1,4 +1,5 @@
 .places__item {
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(min-content, max-content) 1fr;
@@ -70,7 +71,7 @@
 
 @media screen and (max-width: 425px) {
   .places__item {
-    width: 375px;
+    width: 400px;
   }
 }
 
@@ -86,7 +87,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .places__item {
     width: 270px;
   }

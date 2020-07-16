@@ -1,6 +1,6 @@
 @import url(./__lang-select/header__lang-select.css);
 @import url(./__link/header__link.css);
-@import url(./__link/_lang/header__link_lang_ru.css);
+@import url(./__link/_mode/header__link_mode_active.css);
 
 .header {
   width: 1184px;

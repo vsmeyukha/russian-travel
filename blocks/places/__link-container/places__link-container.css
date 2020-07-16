@@ -2,3 +2,9 @@
   grid-area: link-container;
   align-self: end;
 }
+
+@media screen and (max-width: 650px) {
+  .places__link-container {
+    margin-bottom: 15px;
+  }
+}

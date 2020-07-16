@@ -1,10 +1,10 @@
 @import url(./__content/page__content.css);
 
 .page {
-  min-width: 1280px;
+  max-width: 1280px;
   background-color: #2a2c2f;
   color: #fff;
-  margin: 0;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
@@ -13,7 +13,6 @@
 /* ! Малые ноутбуки, от 1024 до 1280 пикселей */
 @media screen and (max-width: 1279px) {
   .page {
-    min-width: 1024px;
     max-width: 1279px;
   }
 }
@@ -21,52 +20,44 @@
 /* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
 @media screen and (max-width: 1023px) {
   .page {
-    min-width: 768px;
     max-width: 1023px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .page {
-    min-width: 700px;
     max-width: 767px;
   }
-}
+} */
 
 @media screen and (max-width: 699px) {
   .page {
-    min-width: 650px;
     max-width: 699px;
   }
 }
 
 @media screen and (max-width: 649px) {
   .page {
-    min-width: 600px;
     max-width: 649px;
   }
 }
 @media screen and (max-width: 599px) {
   .page {
-    min-width: 550px;
     max-width: 599px;
   }
 }
 @media screen and (max-width: 549px) {
   .page {
-    min-width: 500px;
     max-width: 549px;
   }
 }
 @media screen and (max-width: 499px) {
   .page {
-    min-width: 450px;
     max-width: 499px;
   }
 }
 @media screen and (max-width: 449px) {
   .page {
-    min-width: 400px;
     max-width: 449px;
   }
 }
@@ -77,11 +68,10 @@
     max-width: 425px;
     
   }
-}
+} 
 
 @media screen and (max-width: 399px) {
   .page {
-    min-width: 350px;
     max-width: 399px;
   }
 }

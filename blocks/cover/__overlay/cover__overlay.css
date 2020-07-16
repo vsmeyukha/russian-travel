@@ -24,12 +24,12 @@
 
 @media screen and (max-width: 350px) {
   .cover__overlay {
-    max-width: 350px;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
-    max-width: 320px;
+    max-width: 100%;
   }
 }

@@ -54,7 +54,7 @@
 @media screen and (max-width: 550px) {
   .lead__title {
     font-size: 65px;
-    max-width: 550px;
+    max-width: 500px;
     min-height: 135px;
   }
 }
@@ -62,7 +62,7 @@
 @media screen and (max-width: 500px) {
   .lead__title {
     font-size: 60px;
-    max-width: 480px;
+    max-width: 450px;
     min-height: 130px;
   }
 }

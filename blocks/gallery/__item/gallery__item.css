@@ -1,33 +1,81 @@
 .gallery__item {
-  width: 284px;
-  height: 213px;
+  width: 100%;
+  padding-bottom: 75%;
 
-  object-fit: cover;
+  background-size: cover;
 }
 
-/* ! Малые ноутбуки, от 1024 до 1280 пикселей */
+.gallery__item:nth-child(1) {
+  background-image: url(../../../images/gallery/gallery_train.jpeg);
+}
+
+.gallery__item:nth-child(2) {
+  background-image: url(../../../images/gallery/gallery_mountains.jpg);
+}
+
+.gallery__item:nth-child(3) {
+  background-image: url(../../../images/gallery/gallery_fog.jpeg);
+}
+
+.gallery__item:nth-child(4) {
+  background-image: url(../../../images/gallery/gallery_forest.jpeg);
+}
+
+.gallery__item:nth-child(5) {
+  background-image: url(../../../images/gallery/gallery_ice.jpg);
+}
+
+.gallery__item:nth-child(6) {
+  background-image: url(../../../images/gallery/gallery_baikal.jpeg);
+}
+
+.gallery__item:nth-child(7) {
+  background-image: url(../../../images/gallery/gallery_elbrus.jpeg);
+}
+
+.gallery__item:nth-child(8) {
+  background-image: url(../../../images/gallery/gallery_road-sign.jpg);
+}
+
+.gallery__item:nth-child(9) {
+  background-image: url(../../../images/gallery/gallery_kamchatka.jpeg);
+}
+
+.gallery__item:nth-child(10) {
+  background-image: url(../../../images/gallery/gallery_kamchatka2.jpeg);
+}
+
+.gallery__item:nth-child(11) {
+  background-image: url(../../../images/gallery/gallery_baikal2.jpeg);
+}
+
+.gallery__item:nth-child(12) {
+  background-image: url(../../../images/gallery/gallery_ergaki.jpeg);
+}
+
+/* ! Малые ноутбуки, от 1024 до 1280 пикселей
 @media screen and (max-width: 1279px) {
   .gallery__item {
     width: 100%;
   }
-}
+} */
 
 /* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
   .gallery__item {
     width: 100%;
   }
-}
+} */
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .gallery__item {
     width: 100%;
   }
-}
+} */
 
 /* ! Малые смартфоны, менее 425 пикселей */
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) {
   .gallery__item {
     width: 100%;
     margin-bottom: 12px;
@@ -36,4 +84,4 @@
   .gallery__item:last-of-type {
     margin-bottom: 0;
   }
-}
+} */
