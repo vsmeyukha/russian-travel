@@ -11,20 +11,3 @@
   color: white;
 }
 
-@media screen and (max-width: 400px) {
-  .cover__link {
-    max-width: 400px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .cover__link {
-    max-width: 350px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__link {
-    max-width: 320px;
-  }
-}

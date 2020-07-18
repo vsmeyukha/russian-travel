@@ -1,5 +1,6 @@
 .cover__title {
-  width: 560px;
+  width: 100%;
+  max-width: 560px;
   
   font-family: 'Inter', Arial, sans-serif;
   font-size: 72px;
@@ -19,31 +20,29 @@
   -moz-text-size-adjust: 100%;
 }
 
+/* ! Владимир, честно говоря, не понял, что вы имели в виду, говоря об этой ошибке. Код действительно стал короче и адаптив не ломается, но дизайн немного не тот становится. При таком коде на малых разрешениях заголовок явно больше, чем в макете. */
+
 @media screen and (max-width: 650px) {
   .cover__title {
     font-size: 65px;
-    max-width: 500px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .cover__title {
     font-size: 60px;
-    max-width: 460px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .cover__title {
     font-size: 55px;
-    max-width: 420px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .cover__title {
     font-size: 50px;
-    max-width: 390px;
   }
 }
 
@@ -52,27 +51,23 @@
   .cover__title {
     font-size: 45px;
     line-height: 1.09;
-    max-width: 350px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .cover__title {
     font-size: 40px;
-    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .cover__title {
     font-size: 38px;
-    max-width: 270px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;
-    max-width: 240px;
   }
 }

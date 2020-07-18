@@ -29,7 +29,7 @@
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
 @media screen and (max-width: 650px) {
   .places__item {
-    width: 600px;
+    width: 100%;
     margin-bottom: 48px;
     margin-top: 0;
 
@@ -44,60 +44,8 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .places__item {
-    width: 550px;
-  }
-}
-
 @media screen and (max-width: 550px) {
   .places__item {
-    width: 500px;
     margin-bottom: 32px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .places__item {
-    width: 450px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .places__item {
-    width: 400px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .places__item {
-    width: 400px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .places__item {
-    width: 350px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .places__item {
-    width: 300px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places__item {
-    width: 270px;
-  }
-}
-
-/* ! Малые смартфоны, менее 425 пикселей */
-@media screen and (max-width: 425px) {
-  .places__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 }

@@ -13,10 +13,6 @@
   -moz-text-size-adjust: 100%;
 }
 
-.footer__menu-link:link {
-  color: white;
-}
-
 .footer__menu-link:visited {
   color: white;
 }
@@ -51,14 +47,12 @@
 @media screen and (max-width: 520px) {
   .footer__menu-link {
     font-size: 10px;
-    margin-right: 12px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .footer__menu-link {
     font-size: 14px;
-    margin-right: 12px;
   }
 }
 

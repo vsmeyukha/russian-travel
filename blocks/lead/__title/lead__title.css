@@ -13,8 +13,8 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 720px;
-  min-height: 200px;
+  width: 100%;
+  max-width: 720px;
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */

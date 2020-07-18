@@ -10,7 +10,6 @@
 /* ! Малые смартфоны, менее 425 пикселей */
 @media screen and (max-width: 425px) {
   .footer__menu {
-    display: flex;
     flex-direction: column;
   }
 }

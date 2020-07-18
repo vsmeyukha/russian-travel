@@ -7,9 +7,3 @@
   color: #aaaaaa;
   margin: 0 0 12px 0;
 }
-
-@media screen and (max-width: 550px) {
-  .places__url {
-    display: none;
-  }
-}

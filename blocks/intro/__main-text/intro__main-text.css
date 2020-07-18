@@ -1,5 +1,6 @@
 .intro__main-text {
-  width: 690px;
+  width: 100%;
+  max-width: 690px;
 
   font-size: 16px;
   line-height: 1.625;

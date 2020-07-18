@@ -11,7 +11,8 @@
   justify-content: center;
   align-items: center;
 
-  width: 984px;
+  width: 100%;
+  max-width: 984px;
 }
 
 /* ! Малые ноутбуки, от 1024 до 1280 пикселей */
@@ -23,13 +24,6 @@
 
 /* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
 @media screen and (max-width: 1023px) {
-  .lead {
-    width: 100%;
-  }
-}
-
-/* ! Малые смартфоны, менее 425 пикселей */
-@media screen and (max-width: 425px) {
   .lead {
     width: 100%;
   }
