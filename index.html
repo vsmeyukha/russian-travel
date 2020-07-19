@@ -43,9 +43,10 @@
         </ul>
       </section>
 
-      <!-- ! Владимир, увы, я не знаю, как реализовать постоянное, не меняющееся соотношение сторон картинок при встраивании их через img. Подскажите, пожалуйста. Пока оставил как есть-->
+      <!-- ! Кстати, через панду уже прогонял. прогнал еще раз, там всего 5% снижение веса. ну хоть так пусть. -->
 
-      <!-- <section class="gallery">
+      <!-- ! Владимир, я вернул старую версию кода блока галерея, но опять же есть особенности. Если не задавать gallery__item высоту, то грид будет растягивать сетку, ориентируясь на самую высокую картинку. а там одиннадцатая фотография вообще вертикальная. получается, либо сетка ломается, либо, если применять align-items к галерее, то грид опять же растягивает все фото, делая их вертикальными. Пропорции это не искажает, object-fit работает. но фото получаются вертикальными! а в макете фото горизонтальные. причем у них всегда отношение ширины к высоте 4:3. Расскажите, как можно привязать значение высоты к значению ширины, используя такой код? я испробовал просто все.-->
+      <section class="gallery">
         <img src="./images/gallery/gallery_train.jpeg" alt="Вид из окна поезда" class="gallery__item">
         <img src="./images/gallery/gallery_mountains.jpg" alt="Горы" class="gallery__item">
         <img src="./images/gallery/gallery_fog.jpeg" alt="Утро, поле, туман. Собака залезла на стог сена и смотрит вдаль" class="gallery__item">
@@ -58,21 +59,6 @@
         <img src="./images/gallery/gallery_kamchatka2.jpeg" alt="Камчатский вулкан" class="gallery__item">
         <img src="./images/gallery/gallery_baikal2.jpeg" alt="Берег Байкала" class="gallery__item">
         <img src="./images/gallery/gallery_ergaki.jpeg" alt="Природный парк Ергаки" class="gallery__item">
-      </section> -->
-
-      <section class="gallery">
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
-        <div class="gallery__item"></div>
       </section>
 
       <section class="places">
@@ -155,19 +141,19 @@
     <footer class="footer">
       <nav class="footer__nav">
         <ul class="footer__menu">
-          <li class="footer__menu-link">
+          <li class="footer__menu-point">
             <a href="https://yandex.ru/maps" target="_blank" class="footer__menu-link">Карты</a>
           </li>
-          <li class="footer__menu-link">
+          <li class="footer__menu-point">
             <a href="https://yandex.ru/pogoda" class="footer__menu-link" target="_blank">Погода</a>
           </li>
-          <li class="footer__menu-link">
+          <li class="footer__menu-point">
             <a href="https://rasp.yandex.ru" class="footer__menu-link" target="_blank">Расписание</a>
           </li>
-          <li class="footer__menu-link">
+          <li class="footer__menu-point">
             <a href="https://calendar.yandex.ru" class="footer__menu-link" target="_blank">Календарь</a>
           </li>
-          <li href="https://travel.yandex.ru" class="footer__menu-link" target="_blank">
+          <li class="footer__menu-point">
             <a href="https://travel.yandex.ru" class="footer__menu-link" target="_blank">Путешествия</a>
           </li>
         </ul>

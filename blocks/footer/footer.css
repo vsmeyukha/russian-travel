@@ -2,6 +2,7 @@
 @import url(./__menu/footer__menu.css);
 @import url(./__menu-link/footer__menu-link.css);
 @import url(./__nav/footer__nav.css);
+@import url(./__menu-point/footer__menu-point.css);
 
 .footer {
   width: 1184px;
