@@ -22,7 +22,7 @@
 }
 
 /* ! Планшеты в вертикальной либо горизонтальной ориентации, от 768 до 1024 пикселей */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .gallery {
     width: calc(100% - 48px);
     grid-template-columns: repeat(3, 1fr);
@@ -31,7 +31,7 @@
 }
 
 /* ! Большие смартфоны в вертикальной либо горизонтальной ориентации, от 425 до 768 пикселей */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .gallery {
     max-width: 100%;
     grid-template-columns: repeat(2, 1fr);
